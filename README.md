@@ -13,7 +13,7 @@ To open the script behind a component, right-click its header in the Inspector a
 Add this line to `dependencies` in `Packages/manifest.json`:
 
 ```json
-"com.kienack123.inspector-code-editor": "https://github.com/kienack123/Inspector-Code-Editor.git#1.0.0"
+"com.kienack123.inspector-code-editor": "https://github.com/kienack123/Inspector-Code-Editor.git#1.1.0"
 ```
 
 ## Features
@@ -48,6 +48,7 @@ Add this line to `dependencies` in `Packages/manifest.json`:
 | Tab / Shift+Tab | Indent / outdent |
 | Ctrl+Left/Right, Ctrl+Backspace/Delete | Move or delete by word |
 | Ctrl+Home / Ctrl+End | Start / end of file |
+| Ctrl+Scroll (Cmd+Scroll) | Make the text bigger or smaller. The line under the mouse stays in place, and the size is kept as the Font size setting |
 
 While the code view has focus, its shortcuts take priority over Unity's. Ctrl+S saves the file, not the scene, and keys such as W, E, R, F and Delete type text instead of changing tools. You can rebind them under **Edit > Shortcuts > Inspector Code Editor**.
 
@@ -66,7 +67,7 @@ The preview shows sample code in C#, JSON, Shader and XML.
 - **Colors.** Every color of the theme can be changed. Changing one copies the current theme into a **Custom** theme, which then shows up in the list. **Copy a Theme into Custom…** starts Custom over from any built-in theme.
 - **Text.**
   - Font: a list of the monospace fonts installed on the computer, or any font name typed in.
-  - Font size, tab size, and the indent style for files that don't show one.
+  - Font size (Ctrl+Scroll over the code changes it too), tab size, and the indent style for files that don't show one.
   - Syntax highlighting on or off.
   - Line numbers: hidden, shown, or relative to the caret line.
 - **Inspector.**
