@@ -1,0 +1,18 @@
+{
+  "name": "com.kienack123.inspector-code-editor",
+  "version": "1.0.0",
+  "displayName": "Inspector Code Editor",
+  "description": "Edit C# scripts and text files right in the Inspector or in a code window, without opening an IDE. Syntax highlighting with built-in themes, per-file undo and redo, find and replace, go to line, and the file's encoding and line endings are kept on save. Editor only.",
+  "unity": "2022.3",
+  "keywords": [
+    "code",
+    "script",
+    "text",
+    "editor",
+    "inspector"
+  ],
+  "author": {
+    "name": "KienTran",
+    "url": "https://github.com/kienack123"
+  }
+}
